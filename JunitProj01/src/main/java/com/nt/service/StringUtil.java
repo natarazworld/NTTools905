@@ -24,7 +24,7 @@ public class StringUtil {
 	}
 	
 	public  int showLength(String str) {
-		return  str.length(); // gives the lenght of the string
+		return  str.length(); // gives the lenght of the string // gives  the no.of characters in the String
 	}
 	
 	
