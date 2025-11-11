@@ -8,7 +8,7 @@ public class StringUtil {
 	public  static  boolean  isPallendrome(String str) {
 		
 		if(str==null || str.equalsIgnoreCase("") || str.length()==0)
-			throw new IllegalArgumentException("Invalid input");
+			throw new IllegalArgumentException("Invalid inputs");
 		
 		String rev=new StringBuffer(str).reverse().toString();
 		return str.equals(rev);
@@ -22,6 +22,8 @@ public class StringUtil {
 			return  LocalDate.of(year,month,day);
 		}
 	}
+	
+	
 	
 
 	
