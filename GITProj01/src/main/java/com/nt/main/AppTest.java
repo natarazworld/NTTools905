@@ -13,6 +13,9 @@ public class AppTest {
         System.out.println("=====================");
         UPIPayment upip=new UPIPayment();
         System.out.println(upip.doUPIPayment(99999999L, 10000.0f));
+        System.out.println("=====================");
+        System.out.println(upip.doUPIPaymentByAcno(99999999L, 20000.0f));
+        
 	}
 
 }
