@@ -1,0 +1,68 @@
+# ---------------------------------------
+# Eclipse Specific Files
+# ---------------------------------------
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Eclipse Launch Configurations
+*.launch
+
+# ---------------------------------------
+# Maven Specific Files
+# ---------------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.properties
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------------------
+# Java Specific Files
+# ---------------------------------------
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# ---------------------------------------
+# OS / Tooling Specific
+# ---------------------------------------
+.DS_Store
+Thumbs.db
+*.iml
+.idea/
+.vscode/
+out/
+logs/
+*.log
+
+# ---------------------------------------
+# Other optional ignores
+# ---------------------------------------
+# Exclude test output
+surefire-reports/
+failsafe-reports/
+
+# Ignore generated documentation
+docs/
+apidocs/
+
+# Ignore local environment or secret configs
+.env
+application-local.properties
