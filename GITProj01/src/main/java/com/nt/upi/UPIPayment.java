@@ -10,6 +10,9 @@ public class UPIPayment {
 		return amount+" amount is transffered to  accno ::"+accno +" Using BharatPe";
 	}
 	
+	public  String  doUPIPaymentByUpiId(long upid, float amount) {
+		return amount+" amount is transffered to  upiID ::"+upid +" Using BharatPe";
+	}
 	
 	
 
