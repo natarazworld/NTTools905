@@ -25,13 +25,13 @@ public class FindSeasonServlet extends HttpServlet {
 		int month=date.getMonthValue();
 		String seasonName="";
 		if(month>=3 && month<=6)
-			seasonName="Summer Season";
+			seasonName="Summer Season ";
 		else if(month>=7 && month<=10)
 			seasonName="Rainy Season";
 		else
 			seasonName="Winter Season";
 		//use  stream  to write the content to response object 
-		pw.println("<h1 style='color;red;text-align:center'>"+seasonName+"</h1>");
+		pw.println("<h1 style='color;blue;text-align:center'>"+seasonName+"</h1>");
 		pw.println("<br> <a href='index.jsp'> home </a>");
 		//close the stream 
 		pw.close();
