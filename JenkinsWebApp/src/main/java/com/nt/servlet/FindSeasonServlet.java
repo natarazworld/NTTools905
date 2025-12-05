@@ -31,7 +31,7 @@ public class FindSeasonServlet extends HttpServlet {
 		else
 			seasonName="Winter Season";
 		//use  stream  to write the content to response object 
-		pw.println("<h1 style='color;blue;text-align:center'>"+seasonName+"</h1>");
+		pw.println("<h1 style='color:blue;text-align:center'>"+seasonName+"</h1>");
 		pw.println("<br> <a href='index.jsp'> home </a>");
 		//close the stream 
 		pw.close();
