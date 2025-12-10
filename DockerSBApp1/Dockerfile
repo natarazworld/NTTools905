@@ -4,3 +4,4 @@ COPY  target/*.jar  /app1
 CMD  ["java","-jar","SBApp1.jar"]
 
 
+
